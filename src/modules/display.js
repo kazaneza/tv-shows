@@ -1,34 +1,23 @@
-import fetchMovies from './api'
+const showContainer = document.querySelector(".show-container");
 
-const showContainer = document.querySelector('.show-container');
-
-
-const displayHomePage = async () => {
-  try {
-    showContainer.innerHTML = '';
-    const shows = await fetchMovies();
-    shows.forEach((show) => {
-      const listShow = document.createElement('div');
-      listShow.classList.add(`show-${show.id}`);
-      listShow.innerHTML = `
-        <img src=${show.image.medium} alt="movie-image" class="image-pic" />
+const displayHomePage = async (shows) => {
+  showContainer.innerHTML = "";
+  shows.forEach((item) => {
+    showContainer.innerHTML += `
+        <div class="show-${item.id} show-poster">
+        <img src=${item.image.medium} alt="movie-image" class="image-pic" />
         <div class="desc">
-          <p class="movie-title">${show.name}</p>
+          <p class="movie-title">${item.name}</p>
           <div class="likes">
             <i class="fa-sharp fa-regular fa-heart"></i>
-            <p data-id="${show.id}">5 likes</p>
+            <p data-id = "${item.id}">5 likes</p>
           </div>
         </div>
-        <button id="comment-btn" id=${show.id}>Comments</button>
-        <button id="reservation-btn" id=${show.id}>Reservation</button>
-      `;
-      showContainer.appendChild(listShow);
-    });
-    
-  } catch (error) {
-    console.error('Error rendering home page:', error);
-  }
-  
+        <button class="comments-btn" id=${item.id}>Comments</button>
+        <button class="reservation-btn" id=${item.id}>Reservation</button>
+      </div>
+    `;
+  });
 };
 
 export default displayHomePage;
