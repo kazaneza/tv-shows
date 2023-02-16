@@ -24,13 +24,6 @@ li a {
   transition: 0.5s ease-in-out;
 }
 
-a:hover {
-  cursor: pointer;
-  color: #696969;
-  border-color: #696969;
-  font-size: 1.5rem;
-}
-
 .main-section {
   padding: 2rem;
   display: grid;
@@ -39,35 +32,58 @@ a:hover {
   column-gap: 3rem;
 }
 
-.single-movie {
+.show-poster {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   border: 1px solid #fff;
   padding: 1rem;
   gap: 1rem;
-  background-color: #282828;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: 0.5s ease-in-out;
 }
 
-.single-movie:hover {
-  transform: translateY(-5px);
+.close-icon {
+  margin-left: 1rem;
 }
 
 .image-pic {
   width: 100%;
 }
 
-.movie-title {
+.show-image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+}
+
+.show-title {
   font-weight: 900;
   font-size: 1.3rem;
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 .desc {
   display: flex;
   justify-content: space-around;
-  align-shows: center;
 }
 
 .likes {
@@ -101,6 +117,10 @@ a:hover {
   transition: 0.5s ease-in-out;
 }
 
+.comment-popup {
+  display: flex;
+  flex-direction: column;
+}
 
 footer {
   margin-top: 2rem;
