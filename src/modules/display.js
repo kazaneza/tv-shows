@@ -1,7 +1,7 @@
-const showContainer = document.querySelector('.show-container');
+const showContainer = document.querySelector(".show-container");
 
 const displayHomePage = async (shows) => {
-  showContainer.innerHTML = '';
+  showContainer.innerHTML = "";
   shows.forEach((item) => {
     showContainer.innerHTML += `
         <div class="show-${item.id} show-poster">

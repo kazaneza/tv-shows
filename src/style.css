@@ -106,8 +106,6 @@ form {
   transition: 0.5s ease-in-out;
 }
 
-
-
 #reservation-btn {
   width: 100%;
   padding: 0.5rem;
@@ -121,7 +119,10 @@ form {
   display: flex;
   flex-direction: column;
 }
-
+.reservation-model {
+  display: flex;
+  flex-direction: column;
+}
 footer {
   margin-top: 2rem;
   padding: 1rem;
