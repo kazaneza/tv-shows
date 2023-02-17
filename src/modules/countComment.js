@@ -3,6 +3,6 @@
  * @param {HTMLElement} element
  * @returns {number} number of comments
  * */
-const countComment = (element) => element.querySelectorAll(".comment").length;
+const countComment = (element) => element.querySelectorAll('.comment').length;
 
 export default countComment;
