@@ -1,9 +1,5 @@
-import './style.css';
+import './index.css';
 
-import displayHomePage from './modules/display';
+import { renderShowsToDOM } from './modules/display.js';
 
-
-window.addEventListener('load', () => {
-  displayHomePage();
- 
-});
+renderShowsToDOM();
