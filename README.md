@@ -58,7 +58,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Visit the live demo [here]()
+- Visit the live demo [here](https://comforting-melba-0d08d5.netlify.app/)
+- Watch the presentation [here](https://drive.google.com/file/d/1JTn0XDADOLuOERRy5rliXGXfYSSnxTIb/view?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
