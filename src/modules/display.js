@@ -102,4 +102,3 @@ export const renderShowsToDOM = async () => {
 
   renderShowsCount();
 };
-

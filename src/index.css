@@ -7,15 +7,16 @@
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
 }
+
 /* //Dark Blue, Turquoise, Beige */
 body {
   --color-red: dark;
   --color-dark: #010141;
   --color-dark-grey: #31302c;
   --color-text: #474645;
-  --color-light-grey: #30D5C8;
-  --color-light: #F5F5DC;
-  --color-white: #ffffff;
+  --color-light-grey: #30d5c8;
+  --color-light: #f5f5dc;
+  --color-white: #fff;
   --shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.15);
 
   color: var(--color-light);
@@ -96,15 +97,16 @@ a {
 
 .logo {
   padding: 0.25rem 0.5rem;
-  border: solid 1px currentColor;
-  border-radius: 5rem;
+  /* border: solid 1px currentColor; */
+  /* border-radius: 5rem; */
 }
 
 .logo a {
   display: inline-block;
   height: 2rem;
   width: 7.5rem;
-  background-image: url('../images/logo.avif');
+  align-content: center;
+  /* background-image: url('../images/logo.png'); */
   background-repeat: no-repeat;
 }
 

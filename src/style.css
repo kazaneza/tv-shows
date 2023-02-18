@@ -119,10 +119,12 @@ form {
   display: flex;
   flex-direction: column;
 }
+
 .reservation-model {
   display: flex;
   flex-direction: column;
 }
+
 footer {
   margin-top: 2rem;
   padding: 1rem;
