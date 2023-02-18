@@ -26,9 +26,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 TV Maze <a name="about-project"></a>
+# 📖 TV Shows <a name="about-project"></a>
 
-**TV Maze** is a web application based on an external API. The webapp has two user interfaces. A homepage and a comments popup modal.
+**TV Shows** is a web application based on an external API. The webapp has two user interfaces. A homepage and a comments popup modal.
 
 ## 🛠 Built With <a name="built-with"></a>
 
