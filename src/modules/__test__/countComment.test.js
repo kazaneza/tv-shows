@@ -63,4 +63,13 @@ describe('openPopup', () => {
     const commentCountEl = popupEl.querySelector('#comment-count');
     expect(commentCountEl.textContent).toBe('2');
   });
+
+  it('should return 0 when there are no comments displayed', () => {
+    const popupEl = document.createElement('div');
+  
+    const commentCount = countComment(popupEl);
+  
+    expect(commentCount).toBe(0);
+  });
+
 });

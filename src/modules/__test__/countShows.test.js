@@ -75,4 +75,14 @@ describe('the number of shows', () => {
 
     expect(numberOfShows).toBe(3);
   });
+  
+  it('should return 0 when there are no displayed shows', () => {
+    const element = document.createElement('div');
+  
+    const numberOfShows = countShows(element);
+  
+    expect(numberOfShows).toBe(0);
+  });
 });
+
+
