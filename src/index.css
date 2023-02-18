@@ -97,7 +97,9 @@ a {
 
 .logo {
   padding: 0.25rem 0.5rem;
+
   /* border: solid 1px currentColor; */
+
   /* border-radius: 5rem; */
 }
 
@@ -106,6 +108,7 @@ a {
   height: 2rem;
   width: 7.5rem;
   align-content: center;
+
   /* background-image: url('../images/logo.png'); */
   background-repeat: no-repeat;
 }
