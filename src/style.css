@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-evenly;
+  border-bottom: 2px solid #696969;
+}
+
+li a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.main-section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1rem;
+  column-gap: 3rem;
+}
+
+.show-poster {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.close-icon {
+  margin-left: 1rem;
+}
+
+.image-pic {
+  width: 100%;
+}
+
+.show-image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+}
+
+.show-title {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.likes i {
+  color: #696969;
+}
+
+#comment-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 2px solid #696969;
+  color: #696969;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+
+#reservation-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #696969;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+
+.comment-popup {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-model {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 2px solid #fff;
+  text-align: center;
+}
